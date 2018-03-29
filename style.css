@@ -1,3 +1,15 @@
+table,tr,td{
+  border: 2px solid #000;
+  border-collapse: collapse;
+}
+
+
+
+
+
+
+
+
 .main{
   width:100%;
   background-color: pink;
@@ -15,8 +27,8 @@
   }
   .right{
     width:70%;
-    background-color:s#666;
-    border:px 4px solid #fff;
+    background-color:#999;
+    border: 4px solid #fff;
     margin:5px;
     padding:7px;
   }
@@ -28,7 +40,7 @@
   border:5px solid #999;
 }
 
-@media only screen and(min-width:1024px) and (max-width:1280px) {
+@media only screen and (min-width:1024px) and (max-width:1280px) {
   .main{
     display: flex;
     flex-direction:row;
@@ -40,33 +52,15 @@
   }
   .right{
     width:75%;
-    background-color:#5436;
+    background-color:#fff;
   }
   }
-  @media only screen and(min-width:768px)  and (max-width:1024px) {
+  @media only screen and (min-width:768px)  and (max-width:1024px) {
 
 }
-  @media only screen and(min-width:480px)  and (max-width:768px) {
+  @media only screen and (min-width:480px)  and (max-width:768px) {
 
   }
   @media only screen and (max-width:480px){
 
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- {
-
-}
